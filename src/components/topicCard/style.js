@@ -11,7 +11,7 @@ export const CardContainer = styled.div`
   color:#004479;
   border: solid 1px black;
   border-radius:5rem;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
 
   background-color: white;
@@ -19,10 +19,15 @@ export const CardContainer = styled.div`
 
 export const TextContainer = styled.div`
   position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-content: center;
 
 `;
- export const ImageContainer = styled.div`
-  `;
  export const Image = styled.img`
-  height: 100%;
+  height: 80%;
+  border-radius: 1rem;
+  margin-left: 5px;
  `;

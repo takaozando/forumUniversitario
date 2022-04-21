@@ -1,13 +1,12 @@
-import { Container, Image, TextContainer } from "./style";
+import { Container, Image, Input } from "./style";
 
 
 const SearchBox = (props) => {
   return (
     <Container >
+      
+      <Input placeholder="Buscar"/>
       <Image src={props.image} alt="img_icon" />
-      <TextContainer>
-        {props.text}
-      </TextContainer>
     </Container>
   )
 
