@@ -12,22 +12,19 @@ export const Container = styled.div`
   color:#004479;
   border: solid 1px black;
   border-radius:5rem;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-
   background-color: white;
+  margin-left:15%;
+  margin-right:15%;
 `;
 
 export const TextContainer = styled.div`
-position: relative;
-display: flex;
-width: 100%;
-overflow: hidden;
-justify-content: center;
-align-content: center;
 
+position: relative;
+width: 100%;
+
+text-align:right;;
 
 `;
  export const Image = styled.img`
@@ -37,6 +34,7 @@ align-content: center;
 
  
 export const Input = styled.input`
+align-items:center;
 border: 0px solid #ccc;
 
 `;
