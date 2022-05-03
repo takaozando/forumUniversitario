@@ -1,13 +1,22 @@
 import styled from "styled-components";
+import wallpaper from "../../assets/wallpaper.png"
 
 export const Container = styled.div`
   height: 100vh;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
-`;
 
+  background: url(${wallpaper});
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+`;
 export const SignInCard = styled.div`
   background-color: #fff;
   color: #333;
