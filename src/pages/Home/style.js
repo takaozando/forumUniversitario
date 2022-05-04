@@ -4,7 +4,7 @@ import wallpaper from "../../assets/wallpaper.png"
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    height:100vh;
+    height:100%;
     background: url(${wallpaper});
     -webkit-background-size: cover;
     -moz-background-size: cover;

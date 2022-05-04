@@ -1,36 +1,45 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 120px;
-  width: 90%;
+  height: 100%;
+  width: 90vw;
 
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   color:#004479;
   border: solid 1px black;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
 `;
 
 export const InfoContainer = styled.div`
-display: flex;
-flex-direction:column;
-border-right: solid 1px black;
+position:relative;
+display:flex;
+flex-direction:row;
+top:0;
+border-bottom: solid 1px black;
 height: 100%;
+width:100%;
+
 `;
 
  export const UserInfo = styled.div `
-  height:100%;
+ display:flex;
+ flex-direction:column; 
+ height:100%;
+  margin-top:5px;
+  margin-left:5px;
  `;
 
 export const Image = styled.img`;
 position:relative;  
-height:50%;
-width:100%
+height: 100px;
+
   
 `;
 
