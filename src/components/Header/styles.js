@@ -14,7 +14,10 @@ export const Container = styled.div`
 
 `;
  export const ImageWrapper = styled.div`
-  height: 100%`;
+  height: 100%
+  `;
+
  export const Image = styled.img`
   height: 100%;
  `;
+

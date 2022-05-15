@@ -6,6 +6,12 @@ import { Container, ImageContainer, Image,
 const PostCard = (props) => {
     return (
         <Container >
+            <TextContainer>
+                <TitleContainer >{props.title}</TitleContainer>
+                <Text>
+                    {props.content}
+                </Text>
+            </TextContainer>
             <InfoContainer>
                     <Image src={props.image} alt="img_icon" />
                 <UserInfo>
@@ -14,12 +20,6 @@ const PostCard = (props) => {
                     {props.semestre}° Semestre
                 </UserInfo>
             </InfoContainer>
-            <TextContainer>
-                <TitleContainer >{props.title}</TitleContainer>
-                <Text>
-                    {props.content}
-                </Text>
-            </TextContainer>
         </Container>
     )
 

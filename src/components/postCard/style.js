@@ -22,23 +22,25 @@ position:relative;
 display:flex;
 flex-direction:row;
 top:0;
-border-bottom: solid 1px black;
+border-top: solid 1px rgba(0, 0, 0, 0.2);
+margin-top:10px;
 height: 100%;
 width:100%;
 
 `;
 
  export const UserInfo = styled.div `
- display:flex;
- flex-direction:column; 
- height:100%;
-  margin-top:5px;
-  margin-left:5px;
+  display:flex;
+  flex-direction:column; 
+  height:100%;
+  margin-top:10px;
+  margin-left:10px;
  `;
 
 export const Image = styled.img`;
+margin:10px;
 position:relative;  
-height: 100px;
+height: 50px;
 
   
 `;
@@ -51,11 +53,13 @@ flex-direction: column;
 width: 100%;
 height:100%;
 overflow: hidden;
+padding:10px;
 
 `;
 
 export const TitleContainer = styled.h2`
 height:20%;
+margin-bottom: 20px;
 `;
 
 export const Text = styled.p`
