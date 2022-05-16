@@ -5,6 +5,7 @@ import {
 }
   from "./style";
 
+import React from "react";
 import like from "../../components/icones/like.PNG"
 import dislike from "../../components/icones/dislike.PNG"
 

@@ -2,6 +2,7 @@ import { Container, ImageContainer, Image,
          TextContainer, TitleContainer, InfoContainer,
           UserInfo,Text } from "./style";
 
+import React from "react";
 
 const PostCard = (props) => {
     return (
