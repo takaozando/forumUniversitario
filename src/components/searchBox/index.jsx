@@ -1,5 +1,5 @@
 import { Container,TextContainer, Image, Input } from "./style";
-
+import React from "react";
 
 const SearchBox = (props) => {
   return (

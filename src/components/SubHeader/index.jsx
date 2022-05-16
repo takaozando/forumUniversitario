@@ -1,5 +1,6 @@
 import { Container, ImageWrapper, Image, NameWrapper } from "./styles";
 
+import React from "react";
 import dbIcon from '../icones/db.png';
 
 export const SubHeader = (props) => {

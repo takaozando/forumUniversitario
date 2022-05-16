@@ -10,6 +10,7 @@ import {
   RecoveryPassword,
 } from "./styles";
 
+import React from "react";
 import LogoFacens from "../../assets/logo-facens.png";
 
 export const SignIn = () => {

@@ -1,5 +1,5 @@
 import { CardContainer, Image, TextContainer } from "./style";
-
+import React from "react";
 
 const TopicCard = (props) => {
   return (
