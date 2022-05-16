@@ -1,6 +1,5 @@
 import { MainContainer, Container, TextContainer, Image, Input } from "./style";
-
-import { Container,TextContainer, Image, Input } from "./style";
+  
 import React from "react";
 
 
