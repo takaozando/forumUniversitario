@@ -15,15 +15,20 @@ import  TopicCard  from "../../components/topicCard";
 import SearchBox from "../../components/searchBox";
 import PostCard from "../../components/postCard/postCard";
 import SubtopicCard from "../../components/subtopicCard";
+import { SubHeader } from "../../components/SubHeader";
 
 const TopicPage = () => {
   return (
     <Container>
       <Header />
+      <SubHeader name = "Banco de dados" img={dbIcon}/>
       {/* <SearchBox text = "filtrar" image = {searchIcon}/> */}
       <SectionContainer>
 
-        <SubtopicCard image={noPic} username="USuário X" title = "Titulo de teste 1"></SubtopicCard>
+        <SubtopicCard image={noPic} username="Koji Yamada" title = "Como ativar serviço do SQL Server no Linux"></SubtopicCard>
+        <SubtopicCard image={noPic} username="Gustavo Takao" title = "Erro ao executar proc "></SubtopicCard>
+        <SubtopicCard image={noPic} username="Gustavo Galo" title = "ID da primary key gerando aleatóriamente"></SubtopicCard>
+      
       </SectionContainer>
     </Container>
 

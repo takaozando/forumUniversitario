@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-  height: 60px;
+  height: 12vh;
   width: 70%;
 
   position: relative;
@@ -15,6 +15,8 @@ export const CardContainer = styled.div`
   align-items: center;
 
   background-color: white;
+  padding:5px;
+  margin-top:20px;
 `;
 
 export const TextContainer = styled.div`
@@ -24,6 +26,7 @@ export const TextContainer = styled.div`
   overflow: hidden;
   justify-content: center;
   align-content: center;
+  font-size: 20px;
 
 `;
  export const Image = styled.img`

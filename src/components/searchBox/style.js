@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+export const MainContainer = styled.div`
+display: flex;
+
+height: 30vh;
+align-items: center;
+justify-content: center;
+background: none;
+`;
+
 export const Container = styled.div`
   height: 60px;
   width: 70%;
@@ -24,7 +33,7 @@ export const TextContainer = styled.div`
 position: relative;
 width: 100%;
 
-text-align:right;;
+text-align:center;
 
 `;
  export const Image = styled.img`

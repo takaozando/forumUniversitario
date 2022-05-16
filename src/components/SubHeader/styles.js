@@ -24,8 +24,8 @@ export const Image = styled.img`
   height: 100%;
  `;
  export const NameWrapper = styled.div`
-  width: 70vw;
-  background-color: white;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
   font-size:50px;
   text-align: center;
  `;
