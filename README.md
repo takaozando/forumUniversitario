@@ -17,9 +17,9 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 - ReactJS
 - CSS
-- JavaScript  
+- -Styled Components
 - NodeJS
-- Banco de Dados (Indefinido)
+- Firebase
  
 <br>
 
@@ -45,7 +45,7 @@ Após clonar(baixar) o projeto na sua maquina, acesse o diretório da aplicaçã
 npm start
 ```
 
-A aplicação deverá abrir seu navegador padrão na url abaixo automaticamente. Caso isso não ocorra, abra seu navegador e acesse a ulr:
+A aplicação deverá abrir seu navegador padrão na url abaixo automaticamente. Caso isso não ocorra, abra seu navegador e acesse a url:
 ```
 http://localhost:3000
 ```
@@ -59,6 +59,6 @@ http://localhost:3000
 
 | Author | Description |
 | :---: | :--- |
-<img src="https://avatars.githubusercontent.com/u/69652926?v=4" width="170"> | **Gustavo Hideo Takao (https://github.com/takaozando)**<br> Developer/Student.<br> ||
-<img src="https://avatars.githubusercontent.com/u/70176420?v=4" width="170"> | **Guilherme Koji Yamada (https://github.com/gkojiyamada)**<br> Developer/Student.<br> ||
-<img src="https://avatars.githubusercontent.com/u/42772936?v=4" width="170"> | **Gustavo Henrique Coimbra Galo (https://github.com/GustavoGalo)**<br> Developer/Student.
+<img src="https://avatars.githubusercontent.com/u/69652926?v=4" width="170"> | **Gustavo Hideo Takao (https://github.com/takaozando)**<br> 191005 - (PA VII, Mobile) .<br> ||
+<img src="https://avatars.githubusercontent.com/u/70176420?v=4" width="170"> | **Guilherme Koji Yamada (https://github.com/gkojiyamada)**<br> 173271 - (PA VII, Mobile).<br> ||
+<img src="https://avatars.githubusercontent.com/u/42772936?v=4" width="170"> | **Gustavo Henrique Coimbra Galo (https://github.com/GustavoGalo)**<br> 190667 - (PA VII)
