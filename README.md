@@ -1,11 +1,5 @@
 # Fórum Universitário
 
-<h1  >
-    <img  src = "for_readme/topicos.PNG">
-
-</h1>
-
-
 ## 📃 **Sobre o projeto**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Projeto de cunho estudantil desenvolvido para as matérias de Projeto Aplicado VII e Desenvolvimento Mobile. 
@@ -60,6 +54,25 @@ http://localhost:3000
 <br>
 
 ---
+## Prévia
+<h1  >
+    <p align="center">
+Página de login <br>
+    <p align="center"><img  src = "for_readme/Login.PNG" class="center"> <br></p>
+    <p align="center">
+Página inicial <br>
+    <p align="center"><img  src = "for_readme/Home.PNG"> <br></p>
+    <p align="center">
+Tópicos <br>    
+    <p align="center"><img  src = "for_readme/topicos.PNG"> <br></p>
+    <p align="center">
+Página de discussão <br>
+    <p align="center"><img  src = "for_readme/Discussão.PNG"> <br></p>
+    </p>
+    
+
+</h1>
+
 
 ## Criado por ⚙
 
