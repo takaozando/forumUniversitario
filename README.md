@@ -39,10 +39,13 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 ## **Como testar o projeto** 
 
-Será necessário ter o git instalado:
+Primeiramente, será necessário ter o Node.js, você encontra o link para download <a href="https://nodejs.org/en/download/"> aqui </a>
+
+TAmbém será necessário ter o git instalado:
 
 -Instale o git:
-   [Git](https://git-scm.com/downloads)&nbsp;( 
+   <a href="https://git-scm.com/downloads"> &nbsp; Git <a/>  
+ 
 -Navegue até a pasta onde deseja baixar o projeto e execute o comando abaixo no seu terminal:
 
 `git clone https://github.com/takaozando/forumUniversitario.git`
@@ -51,10 +54,15 @@ Será necessário ter o git instalado:
 
 ---
 
-Após clonar(baixar) o projeto na sua maquina, acesse o diretório da aplicação ".../forumUniversitario" e execute o comando abaixo no terminal:
+Após clonar(baixar) o projeto na sua maquina, acesse o diretório da aplicação ".../forumUniversitario" e instale o react digitando o comando abaixo no terminal:
 
 ```
-npm start
+npm install --save react
+```
+Logo após, execute o comando abaixo para iniciar o projeto
+ 
+```
+npm install --save react
 ```
 
 A aplicação deverá abrir seu navegador padrão na url abaixo automaticamente. Caso isso não ocorra, abra seu navegador e acesse a url:
