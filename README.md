@@ -5,7 +5,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Projeto de cunho estudantil desenvolvido para as matérias de Projeto Aplicado VII e Desenvolvimento Mobile. 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;A aplicação irá abranger conceitos de fóruns como o reddit, com o diferencial de ser voltado para uso academico de professores e alunos da FACENS. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;A aplicação irá abranger conceitos de fóruns como o reddit, com o intuito de ser voltado para uso academico de professores e alunos da FACENS. <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Atualmente, utiliza-se o canvas para a gestão de todo tipo de conteúdo academico virtual, sendo disponibilizado novos materiais a cada semestre e ficando indisponível o acesso à conteúdos de semestres anteriores. <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Com o uso de um fórum, todos da faculdade terão acesso à qualquer material em qualquer momento, sendo possível, desta forma, relembrar métodos e conceitos necessários posteriormente.
+
+## Principais funcionalidades
+
+ 
+- Criação de tópicos de discussão <br>
+- Criação de publicações em uma discussão <br>
+- Leitura de qualquer tópico e discussão <br>
+ 
+
 
 <br>
 
@@ -17,7 +29,7 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 - ReactJS
 - CSS
-- -Styled Components
+- Styled Components
 - NodeJS
 - Firebase
  
