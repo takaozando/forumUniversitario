@@ -10,12 +10,14 @@ import like from "../../components/icones/like.PNG"
 import dislike from "../../components/icones/dislike.PNG"
 
 
-const SubtopicCard = (props) => {
+const SubtopicCard = (props,{info}) => {
   return (
     <Container >
-      <TitleContainer >{props.title}</TitleContainer>
+      <TitleContainer >
+        <a href="http://localhost:3000/discussion">{info.Titulo}</a>
+      </TitleContainer>
       <UserInfo>
-        {props.username} <br />
+        {info.Autor} <br />
       </UserInfo>
       <ReactionContainer>
         <ButtonWraper>
