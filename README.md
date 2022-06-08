@@ -62,7 +62,7 @@ npm install --save react
 Logo após, execute o comando abaixo para iniciar o projeto
  
 ```
-npm install --save react
+npm start
 ```
 
 A aplicação deverá abrir seu navegador padrão na url abaixo automaticamente. Caso isso não ocorra, abra seu navegador e acesse a url:
